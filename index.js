@@ -60,7 +60,7 @@ app.post('/sign_up', async (req, res) => {
     }
   });
   
-  app.get("/registration_complete.html;", (req, res)=>{
+  app.get("/registration_complete.html", (req, res)=>{
     res.sendFile (__dirname+"/registration_complete.html");
   })
 
